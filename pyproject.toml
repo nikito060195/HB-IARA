@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "pybind11>=2.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hb-iara"
+version = "0.1.0"
+description = "Iteractive Archiving for Rapid Analysis of Hydrogen Bonds"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Yan Araujo Santos da Campo, Ezequiel Lorenzett, Mateus Henrique Köhler" }
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=2.0.0",
+    "pyarrow>=14.0.0"
+]
+license = { text = "MIT" }

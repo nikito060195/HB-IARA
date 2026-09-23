@@ -72,4 +72,4 @@ pip install .
 # Verificação final
 A verificação da integridade da instalação pode ser feita via:
 
-python -c "import hbond_core; print('hbond_core compilado com sucesso!')"
+python -c "import hbiara; print('hbond_core compilado com sucesso')"
